@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;0,900;1,400;1,500;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;0,900;1,400;1,500;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    margin-left: 0%;
+    height: 99%;
+    padding-left: 0%;
+    width: 100%;
+}
+
+header{
+	width: 10%;
+}
+
+
+.menu{
+	width: 8%;
+	max-width: 10px;
+	box-sizing: border-box;
+}
+
+.icon_menu{
+	/* Layout Properties */
+	top: 0;
+	left: 0;
+	width: 67px;
+	height: 67px;
+	/* UI Properties */
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(10px);
+}
+
+.icon_menu i{
+	cursor: pointer;
+	position: absolute;
+}
+
+.menu__side{
+	top: 0;
+	left: 0;
+	width: 109px;
+	height: 789px;
+	background: #E3C1E5 0% 0% no-repeat padding-box;
+	opacity: 1; 
+	position:fixed;
+	font-size: 16px;
+	z-index: 300;
+}
+
+.options__menu{
+	padding: 20px 0px;
+	margin-left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.options__menu a{
+	color: #53056A;
+	opacity: 1;
+	cursor: default;
+	display: block;
+	position:relative;
+	transition: color 300ms;
+}
+
+.options__menu a:hover{
+    color: white;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.options__menu .option{
+    transition: translate(100%);
+    padding-top: 65px;
+    padding-right: 8px;
+    padding-left: 0px;
+    padding-bottom: 49px;
+    margin-left: 21px;
+    display: flex;
+    position: relative;
+}
+
+.options__menu .option h6{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 13px;
+    letter-spacing: 0.18px;
+    font-weight: 300;
+    cursor: pointer;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    text-align: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+} 
+
+.inicio:before{
+	content: inherit;
+	top: 300px;
+	left: 0;
+	background: #53056A;
+	position: absolute;
+	
+}
+
+.options__menu .inicio{
+	font-weight: 300;
+	cursor: pointer;
+	vertical-align: inherit;
+	top: 668px;
+	left: 0;
+	opacity: 1;
+} 
+
+.options__menu .seleted{
+    /* Layout Properties */
+    top: 130px;
+    left: 43px;
+    width: 18px;
+    height: 172px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #8D378C;
+    opacity: 1;
+    margin-left: 12px;
+    padding-left: 9px;
+	}
+
+.options__menu .work{
+    /* Layout Properties */
+    top: 373px;
+    left: 43px;
+    width: 18px;
+    height: 96px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #8D378C;
+    opacity: 1;
+	}
+
+.options__menu .person{
+    /* Layout Properties */
+    top: 130px;
+    left: 43px;
+    width: 18px;
+    height: 172px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #8D378C;
+    opacity: 1;
+	}
+
+
+a .option h6 {
+    font-family: "Montserrat ExtraBold";
+    font-size: 14,5px;
+    vertical-align: baseline;
+}
+main {
+    margin-left: 13%;
+    width: 85%;
+    padding-left: 8px;
+}
+
+
+
+.contenedor{
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 94%;
+}
+
+
+.titulo{
+	text-align: left;
+	position: center;
+	font-size: 48.62px;
+	margin-bottom: 10px;
+	font: normal normal 900 49px/58px "Montserrat Black";
+	letter-spacing: -0.44px;
+	color: #8D378C;
+	opacity: 1;
+}
+
+.contenedor-bienvenida{
+    display: flex;
+    padding: 0 0 0 0;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.imagen-sth{
+    top: 246px;
+    left: 150px;
+    width: 899px;
+    padding: 180px 0px 40px 0px;
+    margin-left: 10%;
+}
+
+.contenedor-bienvenida .titulos{
+	width: 48%;
+	margin-right: 3px;
+	padding: 150px 0px 40px 10px;
+	position: center;
+}
+
+.titulos h1{
+	text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 144px;
+    font-weight: 900;
+    font-size: 120px;
+    letter-spacing: -2.41px;
+    color: #F9D900;
+    opacity: 1;
+}
+.titulos h2{
+	text-align: left;
+	font: normal normal 900 49px/58px "Montserrat Black";
+	letter-spacing: -1.46px;
+	color: #8D378C;
+	opacity: 1;
+}
+
+.titulos h3{
+	text-align: left;
+	font: normal normal 900 70px/84px "Montserrat Black";
+	letter-spacing: -1.75px;
+	color: #8D378C;
+	opacity: 1;
+}
+
+.titulos h4{
+	text-align: left;
+	font: normal normal 800 20px/24px "Montserrat ExtraBold";
+	letter-spacing: 0.24px;
+	color: #8E8E8E;
+	opacity: 1;
+}
+
+.date{
+    top: 521px;
+    left: 192px;
+    width: 327px;
+    height: 18px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 14px/17px "Montserrat Medium";
+    letter-spacing: -0.1px;
+    color: #8E8E8E;
+    opacity: 1;
+}
+
+.portafolio__contenedor{
+    padding-top: 196px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 150px;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: center;
+    width: 95%;
+    display: flex;
+}
+
+.contenedor-perfil{
+    position: center;
+    width: 49%;
+    float: left;
+}
+
+.contenedor-perfil .titulo h2{
+	width: 48%;
+	margin-right: 3px;
+	padding: 0px 0px 0px 20px;
+	text-align: left;
+	font: normal normal 900 49px/58px "Montserrat Black";
+	letter-spacing: -1.46px;
+	color: #8D378C;
+	opacity: 1;
+}
+
+.date-portafolio p{
+    text-align: justify;
+    font: normal normal 300 16px/19px "Raleway Light";
+    color: #3B3B3F;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    top: 926px;
+    left: 179px;
+    width: 576px;
+    height: 375px;
+}
+
+.habilidades{
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    position: left;
+    width: 99%;
+    margin-top: 38px;
+	
+}
+
+.habilidades h5{
+	text-align: left;
+	font: normal normal 800 15px/18px "Montserrat ExtraBold";
+	letter-spacing: 0.17px;
+	color: #FAB815;
+	opacity: 1;
+}
+
+.portafolio__contenedor .habilidades .Col_1{
+    display: flex;
+    justify-content: space-between;
+    width: 227px;
+    height: 70px;
+    left: 182px;
+    float: left;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.portafolio__contenedor .habilidades .Col_1 ul{
+    padding: 8px 0px 0px 0px;
+    text-align: left;
+    font: normal normal 300 13px/16px "Raleway Light";
+    color: #3B3B3F;
+    opacity: 1;
+    left: 4px;
+}
+
+.porcen{
+    padding-top: 9px;
+    float: right;
+    margin-left: 2px;
+    height: 50px;
+    width: 71px;
+}
+
+.portafolio__contenedor .habilidades .Col_2{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 70px;
+    float: right;
+}
+
+.portafolio__contenedor .habilidades .Col_2 ul{
+    padding-top: 8px;
+    padding-left: 6px;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 300;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 13px;
+    font-family: "Raleway Light";
+    color: #3B3B3F;
+    opacity: 1;
+    left: auto;
+}
+
+.porcen-2{
+    height: 50px;
+    width: 71px;
+    padding-top: 9px;
+    left: auto;
+}
+
+.perfil_contenedor{
+    float: right;
+    left: 70%;
+    width: 52%;
+    margin-left: 0%;
+    padding-left: 155px;
+    padding-top: 9px;
+}
+
+.perfil_contenedor about_perfil{
+	top: 917px;
+	left: 912px;
+	width: 339px;
+	height: 338px;
+	
+}
+.trabajos__contenedor {
+    width: 100%;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    margin-left: -7px;
+}
+
+
+.imagen-port{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 24%;
+    height: 200px;
+	
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    padding-right: 2px;
+    padding-top: 8px;
+}
+.trabajos__contenedor .contenedor-work p {
+    margin-bottom: 71px;
+    text-align: left;
+    font: normal normal 800 15px/18px "Montserrat ExtraBold";
+    letter-spacing: 0.17px;
+    color: #FAB815;
+    opacity: 1;
+}
+
+.contacto__contenedor .date-contacto {
+    padding-top: 12px;
+    width: 40%;
+    text-align: justify;
+}
+
+
+.trabajos__contenedor .contenedor-work h5 {
+    text-align: left;
+	color: #3B3B3F;
+	opacity: 1;
+	font-weight: 300;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 15px;
+    font-family: "Raleway Light";
+}
+
+
+
+
+.galeria-port2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    margin-left: -9px;
+    margin-bottom: 78px;
+    padding-left: 0px;
+}
+
+.imagen-port2{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0px;
+    width: 223px;
+    height: 115%;
+    padding-right: 0px;
+	
+}
+
+.imagen-port2 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+.contacto__contenedor {
+    width: 90%;
+    position: absolute;
+
+}
+
+.contacto__contenedor .contac {
+    float: left;
+    width: 95%;
+    position: absolute;
+}
+
+.contacto__contenedor .contac .date-contacto {
+    width: 429px;
+}
+
+.contac .date-contacto p {
+    text-align: justify;
+    font: normal normal normal 16px/19px "Raleway Light";
+    letter-spacing: 0px;
+    color: #3B3B3F;
+}
+
+
+.date-contacto .title b {
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    text-align: left;
+    font: normal normal 800 16px/19px "Montserrat ExtraBold";
+    letter-spacing: 0.18px;
+    color: #FAB815;
+}
+
+.contac .Redes {
+    width: 415px;
+}
+
+.redes{
+    padding: 30px;
+    height: 92px;
+    opacity: 1;
+}
+
+.media{
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.media li{
+	display: inline-block;
+}
+
+.media a{
+	padding: 0;
+	top: 2849px;
+	left: 218px;
+}
+.contacto__contenedor .contac .contacto {
+    margin-left: -25%;
+}
+
+.contacto__contenedor .contacto p {
+    text-align: left;
+    font: normal normal normal 11px/13px "Raleway Regular";
+    letter-spacing: -0.2px;
+    color: #FAB815;
+    opacity: 1;
+    position: absolute;
+    margin-right: 0px;
+    margin-left: 72%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+
+
+.form{
+    width: 686px;
+    height: 238px;
+    max-width: 68%;
+    background: #E3C1E5 0% 0% no-repeat padding-box;
+    margin-top: 3%;
+    margin-right: 0%;
+    margin-left: 72%;
+    margin-bottom: 0%;
+    position: absolute;
+    padding-top: 0px;
+}
+
+
+.form__container{
+    width: 86%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+    max-width: 90%;
+    margin-left: center;
+    margin-bottom: center;
+    position: center;
+    padding-top: 43px;
+    padding-right: 11px;
+    padding-bottom: 0px;
+    padding-left: 43px;
+    
+}
+
+
+
+.form__input {
+    text-align: left;
+    font: normal normal normal 15px/17px "Montserrat Regular";
+    letter-spacing: 0.17px;
+    color: #ADACAC;
+    opacity: 1;
+    padding-bottom: 17px;
+    padding-top: 4px;
+}
+
+.form__input--mensage {
+	resize: none;
+}
+
+.boton {
+    width: 132px;
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+
+.form__cta {
+    background: #F9D900 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 16px/19px "Raleway Bold";
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+}
+
+.contenedor__nombre {
+    text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+
+footer {
+    margin-top: 57%;
+    margin-right: 0px;
+    margin-bottom: 3%;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    align-content: center;
+    position: absolute;
+    text-align: left;
+    width: 90%;
+    margin-left: 13%;
+    padding-bottom: 5px;
+
+}
