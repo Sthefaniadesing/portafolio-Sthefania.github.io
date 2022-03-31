@@ -49,64 +49,72 @@ header{
 }
 
 .menu__side{
-	top: 0;
-	left: 0;
-	width: 109px;
-	height: 789px;
-	background: #E3C1E5 0% 0% no-repeat padding-box;
-	opacity: 1; 
-	position:fixed;
-	font-size: 16px;
-	z-index: 300;
+    top: 0;
+    left: 0;
+    width: 109px;
+    height: 100%;
+    background: #E3C1E5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    font-size: 16px;
+    z-index: 300;
 }
 
 .options__menu{
-	padding: 20px 0px;
-	margin-left: 0;
-	top: 0;
-	position: absolute;
+    padding-top: 10%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0%;
+    margin-left: 0;
+    top: 0;
+    position: absolute;
+    height: 90%;
 }
 
 .options__menu a{
-	color: #53056A;
-	opacity: 1;
-	cursor: default;
-	display: block;
-	position:relative;
-	transition: color 300ms;
+    color: #53056A;
+    opacity: 1;
+    cursor: default;
+    display: flex;
+    position: static;
+    transition: color 300ms;
+    padding-top: 11%;
+    padding-bottom: 11%;
+    bottom: 90%;
+    top: 99%;
 }
 
 .options__menu a:hover{
     color: white;
-    padding-bottom: 6px;
-    padding-top: 6px;
+    padding-bottom: 6%;
+    padding-top: 6%;
 }
 
 .options__menu .option{
     transition: translate(100%);
-    padding-top: 65px;
+    padding-top: 65%;
     padding-right: 8px;
-    padding-left: 0px;
-    padding-bottom: 49px;
-    margin-left: 21px;
+    padding-left: 5%;
+    padding-bottom: 49%;
     display: flex;
     position: relative;
+    width: 90%;
+    vertical-align: center;
 }
 
 .options__menu .option h6{
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 13px;
     letter-spacing: 0.18px;
     font-weight: 300;
     cursor: pointer;
     transform: matrix(0, -1, 1, 0, 0, 0);
     text-align: left;
-    margin-top: 2px;
     margin-right: 2px;
-    margin-bottom: 2px;
     margin-left: 2px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
+    font-style: Bold;
 } 
 
 .inicio:before{
@@ -170,13 +178,13 @@ header{
 
 
 a .option h6 {
-    font-family: "Montserrat ExtraBold";
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
     font-size: 14,5px;
     vertical-align: baseline;
 }
 main {
     margin-left: 13%;
-    width: 85%;
+    width: 95%;
     padding-left: 8px;
 }
 
@@ -215,9 +223,11 @@ main {
 .imagen-sth{
     top: 246px;
     left: 150px;
-    width: 899px;
+    width: 61%;
     padding: 180px 0px 40px 0px;
-    margin-left: 10%;
+    margin-left: 4%;
+    height: 100%;
+    margin-top: 21px;
 }
 
 .contenedor-bienvenida .titulos{
@@ -239,27 +249,42 @@ main {
     opacity: 1;
 }
 .titulos h2{
-	text-align: left;
-	font: normal normal 900 49px/58px "Montserrat Black";
-	letter-spacing: -1.46px;
-	color: #8D378C;
-	opacity: 1;
+    text-align: left;
+    line-height: 58px;
+    font-weight: 900;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 49px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
+    letter-spacing: -1.46px;
+    color: #8D378C;
+    opacity: 1;
 }
 
 .titulos h3{
-	text-align: left;
-	font: normal normal 900 70px/84px "Montserrat Black";
-	letter-spacing: -1.75px;
-	color: #8D378C;
-	opacity: 1;
+    text-align: left;
+    line-height: 84px;
+    font-weight: 900;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 70px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
+    letter-spacing: -1.75px;
+    color: #8D378C;
+    opacity: 1;
 }
 
 .titulos h4{
-	text-align: left;
-	font: normal normal 800 20px/24px "Montserrat ExtraBold";
-	letter-spacing: 0.24px;
-	color: #8E8E8E;
-	opacity: 1;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 800;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
+    letter-spacing: 0.24px;
+    color: #8E8E8E;
+    opacity: 1;
 }
 
 .date{
@@ -296,16 +321,7 @@ main {
     width: 49%;
     float: left;
 }
-
-.contenedor-perfil .titulo h2{
-	width: 48%;
-	margin-right: 3px;
-	padding: 0px 0px 0px 20px;
-	text-align: left;
-	font: normal normal 900 49px/58px "Montserrat Black";
-	letter-spacing: -1.46px;
-	color: #8D378C;
-	opacity: 1;
+.contenedor-perfil .date-portafolio {
 }
 
 .date-portafolio p{
@@ -316,26 +332,28 @@ main {
     padding-right: 0px;
     padding-left: 0px;
     top: 926px;
-    left: 179px;
-    width: 576px;
-    height: 375px;
 }
+
 
 .habilidades{
     padding: 0px 0px 0px 0px;
     overflow: hidden;
     position: left;
-    width: 99%;
     margin-top: 38px;
 	
 }
 
 .habilidades h5{
-	text-align: left;
-	font: normal normal 800 15px/18px "Montserrat ExtraBold";
-	letter-spacing: 0.17px;
-	color: #FAB815;
-	opacity: 1;
+    text-align: left;
+    line-height: 18px;
+    font-weight: 800;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 15px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
+    letter-spacing: 0.17px;
+    color: #FAB815;
+    opacity: 1;
 }
 
 .portafolio__contenedor .habilidades .Col_1{
@@ -400,10 +418,9 @@ main {
 
 .perfil_contenedor{
     float: right;
-    left: 70%;
-    width: 52%;
+    width: 41%;
     margin-left: 0%;
-    padding-left: 155px;
+    padding-left: 110px;
     padding-top: 9px;
 }
 
@@ -415,7 +432,7 @@ main {
 	
 }
 .trabajos__contenedor {
-    width: 100%;
+    width: 95%;
 }
 
 .galeria-port{
@@ -424,6 +441,8 @@ main {
     flex-wrap: wrap;
     margin-top: -1px;
     margin-left: -7px;
+    width: 95%;
+    height: 70%;
 }
 
 
@@ -433,13 +452,13 @@ main {
     cursor: pointer;
     margin-bottom: 10px;
     width: 24%;
-    height: 200px;
+    height: 21%;
 	
 }
 
 .imagen-port > img{
     width: 100%;
-    height: 100%;
+    height: 92%;
     object-fit: cover;
     display: block;
     padding-right: 2px;
@@ -448,16 +467,15 @@ main {
 .trabajos__contenedor .contenedor-work p {
     margin-bottom: 71px;
     text-align: left;
-    font: normal normal 800 15px/18px "Montserrat ExtraBold";
+    line-height: 18px;
+    font-weight: 800;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 15px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
     letter-spacing: 0.17px;
     color: #FAB815;
     opacity: 1;
-}
-
-.contacto__contenedor .date-contacto {
-    padding-top: 12px;
-    width: 40%;
-    text-align: justify;
 }
 
 
@@ -483,6 +501,7 @@ main {
     margin-left: -9px;
     margin-bottom: 78px;
     padding-left: 0px;
+    width: 95%;
 }
 
 .imagen-port2{
@@ -490,8 +509,8 @@ main {
     position: relative;
     cursor: pointer;
     margin-bottom: 0px;
-    width: 223px;
-    height: 115%;
+    width: 24%;
+    height: 24%;
     padding-right: 0px;
 	
 }
@@ -507,8 +526,9 @@ main {
 }
 
 .contacto__contenedor {
-    width: 90%;
+    width: 95%;
     position: absolute;
+    padding-top: 10px;
 
 }
 
@@ -519,7 +539,8 @@ main {
 }
 
 .contacto__contenedor .contac .date-contacto {
-    width: 429px;
+    width: 47%;
+    padding-top: 10px;
 }
 
 .contac .date-contacto p {
@@ -534,13 +555,18 @@ main {
     margin-bottom: 0px;
     padding-bottom: 2px;
     text-align: left;
-    font: normal normal 800 16px/19px "Montserrat ExtraBold";
+    line-height: 19px;
+    font-weight: 800;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-family: "Montserrat ExtraBold", "Montserrat Black", Montserrat, "Montserrat Medium";
     letter-spacing: 0.18px;
     color: #FAB815;
 }
 
 .contac .Redes {
-    width: 415px;
+    width: 47%;
 }
 
 .redes{
@@ -556,27 +582,32 @@ main {
 }
 
 .media li{
-	display: inline-block;
+    display: inline-block;
+    padding-left: 5%;
 }
 
 .media a{
-	padding: 0;
-	top: 2849px;
-	left: 218px;
+    padding: 0;
 }
 .contacto__contenedor .contac .contacto {
-    margin-left: -25%;
+    margin-left: 50%;
+    width: 42%;
+    padding-top: 9px;
 }
 
 .contacto__contenedor .contacto p {
     text-align: left;
-    font: normal normal normal 11px/13px "Raleway Regular";
+    line-height: 13px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: SemiBold;
+    font-size: 11px;
+    font-family: "Raleway SemiBold", "Raleway Light", Raleway;
     letter-spacing: -0.2px;
     color: #FAB815;
     opacity: 1;
     position: absolute;
     margin-right: 0px;
-    margin-left: 72%;
     padding-top: 10px;
     padding-bottom: 0px;
     margin-top: 5px;
@@ -584,13 +615,12 @@ main {
 
 
 .form{
-    width: 686px;
-    height: 238px;
-    max-width: 68%;
+    width: 42%;
+    height: 70%;
+    max-width: 42%;
     background: #E3C1E5 0% 0% no-repeat padding-box;
     margin-top: 3%;
     margin-right: 0%;
-    margin-left: 72%;
     margin-bottom: 0%;
     position: absolute;
     padding-top: 0px;
@@ -617,7 +647,12 @@ main {
 
 .form__input {
     text-align: left;
-    font: normal normal normal 15px/17px "Montserrat Regular";
+    line-height: 17px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: Ligth;
+    font-size: 11px;
+    font-family: "Raleway SemiBold", "Raleway Light", Raleway;
     letter-spacing: 0.17px;
     color: #ADACAC;
     opacity: 1;
@@ -633,7 +668,6 @@ main {
     width: 132px;
     height: 50px;
     padding-top: 15px;
-    margin-top: 10px;
 }
 
 
@@ -652,13 +686,6 @@ main {
     padding-bottom: 8px;
 }
 
-.contenedor__nombre {
-    text-align: center;
-	display: flex;
-	justify-content: space-evenly;
-	
-}
-
 
 footer {
     margin-top: 57%;
@@ -671,7 +698,7 @@ footer {
     align-content: center;
     position: absolute;
     text-align: left;
-    width: 90%;
+    width: 95%;
     margin-left: 13%;
     padding-bottom: 5px;
 
